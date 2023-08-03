@@ -1,0 +1,183 @@
+
+.login-container {
+    padding: 100px;
+}
+
+.user-picture>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.user-picture {
+    width: 100px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.camera-icon {
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    position: absolute;
+    bottom: 10px;
+    right: -5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+
+.chat-container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 50px !important;
+}
+
+.message-box {
+    width: 45%;
+    background-color: #c7e3f9;
+    padding: 10px;
+    color: #667682;
+    border-radius: 5px;
+}
+
+.message-box > span {
+ 
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.right-message {
+    background-color: #6daad7;
+    color: #141414;
+    margin-left: auto;
+}
+
+.chat-box {
+    padding: 10px;
+    height: 400px;
+    overflow: auto;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction:column-reverse;
+
+    background: #FBD3E9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+
+.user-profile{
+
+    width: 50px;
+    height: 50px;
+}
+
+.chat-icon{
+
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.chat-icon :active{
+
+    opacity: 0.5;
+}
+
+.user-profile-chat{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+
+
+}
+
+.list-group-item{
+
+    cursor: pointer;
+
+    background: #FBD3E9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.list-group-item :hover {
+
+    background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+
+    
+}
+
+.online-dot{
+
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    
+}
+
+.green-dot{
+
+    background-color: green;
+}
+
+.red-dot{
+
+    background-color: red;
+}
+
+.user-container{
+
+    position: relative;
+}
+
+.users-list{
+
+    height: 453px;
+    overflow-y: scroll;
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.notification-badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.selectedUserCard{
+
+    background: #FBD3E9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.logged-in-user{
+
+    background: #FBD3E9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
