@@ -5,6 +5,18 @@
   import { getStorage, ref, uploadBytes, uploadBytesResumable, getDownloadURL, deleteObject } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-storage.js";
 
 
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyBAeTPf9GDOKc81v6avBMykYElJp2zBvgk",
+    authDomain: "data-base-151c7.firebaseapp.com",
+    projectId: "data-base-151c7",
+    storageBucket: "data-base-151c7.appspot.com",
+    messagingSenderId: "637878582535",
+    appId: "1:637878582535:web:8fe1b4e35b5444172cd9a2",
+    measurementId: "G-7JBPL4E9J1"
+  };
+
+  
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app);
@@ -138,7 +150,7 @@ logoutBtn && logoutBtn.addEventListener("click", () => {
 
 let userProfile = document.getElementById("user-profile");
 
-// get user data from firebase
+// get user data from firebase for profile
 const getUserData = async (uid) => {
     const docRef = doc(db, "users", uid);
     const docSnap = await getDoc(docRef);
@@ -183,7 +195,7 @@ onAuthStateChanged(auth, (user) => {
         } 
     }
     else {
-        if (location.pathname !== '/logIn.html' && location.pathname !== "/register.html") {
+        if (location.pathname !== '/logIn.html' && location.pathname !== "/index.html") {
             location.href = "logIn.html"
         }
     }
